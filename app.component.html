@@ -1,0 +1,14 @@
+<h1>Inbuilt Pipes in Angular</h1>
+<h3>Uppercase :-</h3>{{"This is the example"| uppercase}} <br>
+<h3>Lowercase :-</h3>{{"This is the EXAMPLE"| lowercase}} <br>
+<h3>Decimal :-</h3>{{"567.9409749"| number: '4.0-3'}} <br>
+<h3>Percent :-</h3>{{"0.567"| percent:'2.2-3'}} <br>
+<h3>Slice :-</h3>{{"647388325736738820"| slice:2:7}} <br>
+<h3>Currency :-</h3>{{"145389"| currency:"INR":"symbol"}} <br>
+<h3>Json :-</h3>{{details| json}} <br>
+<h3>Date :-</h3>{{currentdate| date:'medium'}} <br>
+<br>
+<h3>Custom Pipes example:-</h3>
+(click on the table button)
+<button routerLink="/table">Table</button>
+<router-outlet></router-outlet>
